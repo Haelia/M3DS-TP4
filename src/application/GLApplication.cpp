@@ -76,7 +76,7 @@ void GLApplication::drawGround() {
   p3d::modelviewMatrix.push();
   p3d::textureMatrix.push();
   p3d::textureMatrix.scale(135,135,135);
-  p3d::modelviewMatrix.translate(0,-3,0);
+  p3d::modelviewMatrix.translate(0,-6,0);
   p3d::modelviewMatrix.scale(10,10,10);
   p3d::ambientColor=Vector4(0,0,0,1);
   p3d::shaderTextureLight();
